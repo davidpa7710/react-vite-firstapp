@@ -2,13 +2,13 @@ import React from 'react'
 import { render } from 'react-dom'
 import './Styles/index.css'
 import { App } from './Components/App'
-import { Counter } from './Components/Counter/index'
+import { CounterOps } from './Components/App/CounterOps/index'
 
 render(
   <React.StrictMode>
     <>
     <App />
-    <Counter />
+    <CounterOps />
     </>
   </React.StrictMode>,
   document.getElementById('root')
