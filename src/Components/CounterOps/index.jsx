@@ -1,6 +1,6 @@
 import './counter.scss'
 import React from 'react'
-import { useContador } from '../../../hooks/useContador'
+import { useContador } from '../../hooks/useContador'
 
 export const CounterOps = ({ initilValue = 10 }) => {
   const { contador, sumar, resta } = useContador(initilValue)
